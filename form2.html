@@ -75,9 +75,9 @@
                     </div>
                     <div class="colume">
                         <p class="label">Income</p>
-                        <div class="row">
-                            <input class="salary" type="range">
-                            <button>20K</button>
+                        <div class="row sal-row">
+                            <input id="salary" type="range" min="0" max="20000" value="0" oninput="(salary_update())">
+                            <button id="sal-val">20K</button>
                         </div>
                     </div>
                 </div>
@@ -99,5 +99,10 @@
             </div>
         </div>
     </div>
+    <script>
+        function salary_update(){
+            document.querySelector("#sal-val").innerHTML = document.querySelector("#salary").value;
+        }
+    </script>
 </body>
 </html>

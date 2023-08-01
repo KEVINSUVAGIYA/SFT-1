@@ -42,6 +42,10 @@ body{
     width: 40%;
 }
 
+.sal-row{
+    justify-content: space-between;
+}
+
 .label{
     margin-bottom: 5px;
     color: #29BA90;
@@ -67,7 +71,8 @@ body{
     padding: 5px;
 }
 
-.salary{
+#salary{
+    width: 65%;
     margin:none;
     accent-color: #29BA90;
 }
@@ -84,6 +89,7 @@ body{
 
 button{
     font-size: 15px;
+    min-width: 60px;
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 30px;
