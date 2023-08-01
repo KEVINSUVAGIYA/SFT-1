@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+}
+.container{
+    display: inline-block;
+    padding: 30px;
+    width: 50%;
+    height: 80%;
+    background-color: #436271;
+}
+
+.sub-div{
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.heading , .footer{
+    background-color: #dee0e2;
+    color: gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    border-radius: 10px 10px 0 0;
+    padding: 8px;
+    border-bottom: 3px solid rgb(190, 188, 188);
+}
+
+.footer{
+    border-radius: 0 0 10px 10px;
+    text-align: right;
+    border-top: 3px solid rgb(190, 188, 188);
+    padding: 2% 5%;
+}
+
+.row{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+.colume{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.label{
+    margin-bottom: 5px;
+    color: #29BA90;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.hobbies{
+    margin-top: 4px;
+    height: 13px;
+}
+
+/* .gender{
+    width: 30%;
+} */
+
+.input textarea option select{
+    border-color: gray;
+    opacity: 40%;
+}
+.input::placeholder{
+    color: gray;
+    padding: 5px;
+}
+
+.salary{
+    margin:none;
+    accent-color: #29BA90;
+}
+
+.inner{
+    color:rgba(0, 0, 0, 0.671);
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.one{
+    width: 90%;
+}
+
+button{
+    font-size: 15px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30px;
+    background-color: #29BA90;
+    border: none;
+    border-radius: 2px;
+    padding: 3px 6px;
+}
