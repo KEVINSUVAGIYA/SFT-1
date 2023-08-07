@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Blink</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        button{
+            color: white;
+            background-color: #29c7bf;
+            height: 40px;
+            width:100px;
+        }
+        button:hover{
+            animation: 200ms blink;
+        }
+        @keyframes blink{
+            50% {opacity : 50%}
+            100% {opacity: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover on a Button</h1>
+
+    <button>Hover!</button>
+</body>
+</html>
